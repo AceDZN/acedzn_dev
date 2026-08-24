@@ -1,0 +1,22 @@
+{
+    "title": "Alex Sindalovsky (AceDZN) - UI/UX Developer & Context Engineer",
+    "titleTemplate": "%s | AceDZN",
+    "description": "Personal portfolio of Alex Sindalovsky - 20+ years crafting interfaces, now AI-augmented. UI/UX developer, context engineer, and maker of EdTech tools. Built with React, Next.js, TypeScript.",
+    "keywords": "Alex Sindalovsky, AceDZN, UI/UX developer, context engineer, AI-augmented development, React developer, Next.js, TypeScript, EdTech, GoEddy, developer portfolio, Israel",
+    "og": {
+        "siteName": "AceDZN - Alex Sindalovsky",
+        "title": "Alex Sindalovsky (AceDZN) - UI/UX Developer & Context Engineer",
+        "description": "20+ years crafting interfaces. Now AI-augmented. Tools, EdTech apps, and experiments.",
+        "type": "website",
+        "locale": "en_US"
+    },
+    "twitter": {
+        "card": "summary_large_image",
+        "title": "Alex Sindalovsky (AceDZN) - UI/UX Developer & Context Engineer",
+        "description": "20+ years crafting interfaces. Now AI-augmented. Tools, EdTech apps, and experiments.",
+        "site": "@AceDZN"
+    },
+    "author": "Alex Sindalovsky",
+    "creator": "AceDZN",
+    "publisher": "AceDZN"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "אלכס סינדלובסקי (AceDZN) - מפתח UI/UX ומהנדס קונטקסט",
+    "titleTemplate": "%s | AceDZN",
+    "description": "תיק עבודות אישי של אלכס סינדלובסקי - 20+ שנה של עיצוב ממשקים, עם AI כחלק מתהליך העבודה. מפתח UI/UX, מהנדס קונטקסט ויוצר כלי EdTech. נבנה עם React, Next.js ו-TypeScript.",
+    "keywords": "אלכס סינדלובסקי, AceDZN, מפתח UI/UX, מהנדס קונטקסט, פיתוח עם AI, מפתח React, Next.js, TypeScript, EdTech, GoEddy, תיק עבודות מפתח, ישראל",
+    "og": {
+        "siteName": "AceDZN - אלכס סינדלובסקי",
+        "title": "אלכס סינדלובסקי (AceDZN) - מפתח UI/UX ומהנדס קונטקסט",
+        "description": "20+ שנה של עיצוב ממשקים, עם AI כחלק מתהליך העבודה. כלים, אפליקציות EdTech וניסויים.",
+        "type": "website",
+        "locale": "he_IL"
+    },
+    "twitter": {
+        "card": "summary_large_image",
+        "title": "אלכס סינדלובסקי (AceDZN) - מפתח UI/UX ומהנדס קונטקסט",
+        "description": "20+ שנה של עיצוב ממשקים, עם AI כחלק מתהליך העבודה. כלים, אפליקציות EdTech וניסויים.",
+        "site": "@AceDZN"
+    },
+    "author": "אלכס סינדלובסקי",
+    "creator": "AceDZN",
+    "publisher": "AceDZN"
+}

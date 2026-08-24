@@ -1,0 +1,36 @@
+{
+  "id": "workbook",
+  "slug": "workbook",
+  "name": "Workbook",
+  "nameHe": "החוברת",
+  "description": "Interactive educational platform with JSON-driven content, quizzes, and simulations",
+  "descriptionHe": "פלטפורמה חינוכית אינטראקטיבית עם תוכן מונע JSON, חידונים וסימולציות",
+  "longDescription": "A comprehensive educational content platform featuring interactive quizzes, simulations, and structured learning modules. Built with a block-based content system that renders educational materials from JSON definitions, supporting multiple block types including heroes, callouts, quizzes, and scientific tables.",
+  "longDescriptionHe": "פלטפורמת תוכן חינוכית מקיפה הכוללת חידונים אינטראקטיביים, סימולציות ומודולי למידה מובנים. בנויה עם מערכת תוכן מבוססת בלוקים שמרנדרת חומרי לימוד מהגדרות JSON, תומכת במגוון סוגי בלוקים כולל heroes, callouts, חידונים וטבלאות מדעיות.",
+  "url": null,
+  "urlKey": "workbook",
+  "docsUrl": "/en/projects/workbook",
+  "icon": "book",
+  "color": "from-blue-500 to-indigo-600",
+  "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS", "JSON Schema"],
+  "features": [
+    "Block-based content rendering system",
+    "Interactive quizzes with instant feedback",
+    "Scientific simulations and visualizations",
+    "Multi-subject curriculum support",
+    "Chapter summaries and progress tracking",
+    "Responsive design for all devices"
+  ],
+  "featuresHe": [
+    "מערכת רינדור תוכן מבוססת בלוקים",
+    "חידונים אינטראקטיביים עם משוב מיידי",
+    "סימולציות והדמיות מדעיות",
+    "תמיכה בתכנית לימודים רב-תחומית",
+    "סיכומי פרקים ומעקב התקדמות",
+    "עיצוב רספונסיבי לכל המכשירים"
+  ],
+  "status": "beta",
+  "tags": ["edtech", "nextjs"],
+  "published": true,
+  "order": 2
+}

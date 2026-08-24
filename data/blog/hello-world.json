@@ -1,0 +1,138 @@
+{
+  "id": "hello-world",
+  "slug": "hello-world",
+  "title": "Hello World - Why I Finally Built My Own Site (Again)",
+  "titleHe": "שלום עולם - למה סוף סוף בניתי את האתר שלי (שוב)",
+  "date": "2026-02-01",
+  "tags": ["personal", "web-dev", "meta"],
+  "excerpt": "After 20+ years of building websites for everyone else, I finally got around to building a proper home for my own projects. Here's why, and what I learned (again).",
+  "excerptHe": "אחרי 20+ שנה של בניית אתרים לכולם, סוף סוף הגעתי לבנות בית מסודר לפרויקטים שלי. הנה למה, ומה למדתי (שוב).",
+  "readTime": 4,
+  "published": true,
+  "content": [
+    {
+      "type": "paragraph",
+      "content": "There's an irony that every web developer knows too well: the cobbler's children have no shoes. I've been building websites and web apps professionally for over two decades, and yet my own online presence has always been... well, embarrassing."
+    },
+    {
+      "type": "heading",
+      "content": "The Graveyard of Personal Sites",
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "content": "Over the years, I've started and abandoned more personal sites than I can count. There was the WordPress era (multiple times), the hand-coded HTML phase, a brief Storyblok experiment, and at least three 'I'll build it from scratch with [hot framework of the month]' attempts."
+    },
+    {
+      "type": "paragraph",
+      "content": "The pattern was always the same: get excited, overengineer it, lose interest maintaining it, let it rot. Sound familiar?"
+    },
+    {
+      "type": "heading",
+      "content": "This Time It's Different (Maybe)",
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "content": "This site is built differently. Instead of a CMS or database-driven blog, the content is just JSON files. No admin panel to maintain. No database to backup. No CMS to update. Just files in a repo."
+    },
+    {
+      "type": "code",
+      "language": "json",
+      "content": "{\n  \"title\": \"Hello World\",\n  \"date\": \"2026-02-01\",\n  \"tags\": [\"personal\"],\n  \"content\": [\n    { \"type\": \"paragraph\", \"content\": \"Just JSON.\" }\n  ]\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Want to write a post? Create a JSON file. Want to embed a tweet or LinkedIn post? There's a block type for that. Want to add code snippets? Already supported. It's the simplest thing that could possibly work."
+    },
+    {
+      "type": "heading",
+      "content": "What's Actually Here",
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "content": "This site serves as a directory for tools and apps I've built for my own use. Some are learning apps I made for my kids (like Workbook and Dictation), some are developer tools, and some are just experiments. They're all things I actually use - which is the best motivation to keep them working."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Workbook - An interactive educational platform with JSON-driven content",
+        "Dictation - A voice-powered learning app with 3D visualizations",
+        "More tools coming as I organize and polish them"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The site itself is built with Next.js 16, TypeScript, Tailwind CSS, and runs in a monorepo alongside all my other projects. The whole thing is open source on GitHub."
+    },
+    {
+      "type": "heading",
+      "content": "What's Next",
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "content": "I'm planning to add more tools to the directory, write about interesting technical challenges I encounter, and maybe experiment with embedding social media content directly into blog posts. The JSON-based blog system makes all of this trivially extensible."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you're reading this, thanks for stopping by. If you're a fellow developer with an abandoned personal site - I see you. Maybe this is the year we both actually maintain one."
+    }
+  ],
+  "contentHe": [
+    {
+      "type": "paragraph",
+      "content": "יש אירוניה שכל מפתח ווב מכיר היטב: לילדי הסנדלר אין נעליים. אני בונה אתרים ואפליקציות ווב באופן מקצועי כבר למעלה משני עשורים, ובכל זאת הנוכחות המקוונת שלי תמיד הייתה... ובכן, מביכה."
+    },
+    {
+      "type": "heading",
+      "content": "בית הקברות של אתרים אישיים",
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "content": "לאורך השנים, התחלתי ונטשתי יותר אתרים אישיים ממה שאני יכול לספור. הייתה תקופת ה-WordPress (כמה פעמים), שלב ה-HTML הידני, ניסוי קצר עם Storyblok, ולפחות שלושה ניסיונות של 'אבנה את זה מאפס עם [הפריימוורק החם של החודש]'."
+    },
+    {
+      "type": "paragraph",
+      "content": "הדפוס תמיד היה אותו דבר: להתלהב, לעשות over-engineering, לאבד עניין בתחזוקה, לתת לזה לרקוב. נשמע מוכר?"
+    },
+    {
+      "type": "heading",
+      "content": "הפעם זה שונה (אולי)",
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "content": "האתר הזה בנוי אחרת. במקום CMS או בלוג מבוסס בסיס נתונים, התוכן הוא סתם קבצי JSON. אין פאנל ניהול לתחזק. אין בסיס נתונים לגבות. אין CMS לעדכן. רק קבצים בריפו."
+    },
+    {
+      "type": "paragraph",
+      "content": "רוצים לכתוב פוסט? תיצרו קובץ JSON. רוצים לשלב ציוץ או פוסט מלינקדאין? יש בלוק בשביל זה. רוצים להוסיף קטעי קוד? כבר נתמך. זה הדבר הכי פשוט שיכול לעבוד."
+    },
+    {
+      "type": "heading",
+      "content": "מה שבאמת יש פה",
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "content": "האתר הזה משמש כמאגר לכלים ואפליקציות שבניתי לשימוש עצמי. חלקם אפליקציות למידה שיצרתי לילדים שלי (כמו Workbook ו-Dictation), חלקם כלי פיתוח, וחלקם סתם ניסויים. כולם דברים שאני באמת משתמש בהם."
+    },
+    {
+      "type": "heading",
+      "content": "מה הלאה",
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "content": "אני מתכנן להוסיף עוד כלים למאגר, לכתוב על אתגרים טכניים מעניינים שאני נתקל בהם, ואולי להתנסות בהטמעת תוכן מרשתות חברתיות ישירות בפוסטים. מערכת הבלוג מבוססת JSON הופכת את כל זה לניתן להרחבה בקלות."
+    },
+    {
+      "type": "paragraph",
+      "content": "אם אתם קוראים את זה, תודה שעצרתם. אם אתם מפתחים עם אתר אישי נטוש - אני רואה אתכם. אולי זו השנה שבה שנינו באמת נתחזק אחד."
+    }
+  ]
+}

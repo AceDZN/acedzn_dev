@@ -1,0 +1,15 @@
+{
+    "common": {
+        "signIn": "התחבר",
+        "signOut": "התנתק",
+        "loading": "טוען...",
+        "error": "משהו השתבש",
+        "notFound": "הדף לא נמצא",
+        "menu": "תפריט"
+    },
+    "navigation": {
+        "home": "בית",
+        "dashboard": "לוח בקרה",
+        "settings": "הגדרות"
+    }
+}

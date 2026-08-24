@@ -1,0 +1,86 @@
+{
+    "hero": {
+        "wordmark": "ALEX SINDALOVSKY",
+        "headlineLead": "Building things that make learning",
+        "headlineAccent": "fun",
+        "bio": "I lead engineering teams and build digital products at the intersection of education, technology, and meaningful play.",
+        "ctaConnect": "Let's Connect",
+        "ctaWork": "View My Work",
+        "imageAlt": "Illustrated figurine of Alex Sindalovsky"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "work": "Work",
+        "ideas": "Ideas",
+        "contact": "Contact",
+        "projects": "Projects",
+        "blog": "Blog",
+        "signin": "Sign In"
+    },
+    "pillars": {
+        "webDev": {
+            "title": "Web Developer",
+            "description": "Building fast, scalable interfaces with clean and maintainable code."
+        },
+        "techLead": {
+            "title": "Tech Leader",
+            "description": "Leading teams and shipping products that make an impact."
+        },
+        "edtech": {
+            "title": "EdTech Builder",
+            "description": "Creating playful learning experiences that empower kids."
+        },
+        "ai": {
+            "title": "AI Tinkerer",
+            "description": "Exploring AI-augmented workflows and building real-world tools."
+        }
+    },
+    "projects": {
+        "label": "Work",
+        "title": "What I Do",
+        "subtitle": "A few of the tools, platforms, and experiments I'm currently proud of.",
+        "viewAll": "View All Projects",
+        "launch": "Launch",
+        "docs": "Docs",
+        "explore": "Explore",
+        "seeProjects": "See Projects",
+        "backToProjects": "Back to Projects",
+        "features": "Features",
+        "technologies": "Technologies",
+        "relatedPosts": "Related Posts",
+        "visitProject": "Visit Project",
+        "viewDocs": "View Docs",
+        "details": "Details",
+        "comingSoon": "Coming Soon",
+        "comingSoonDesc": "More projects on the way."
+    },
+    "blog": {
+        "label": "Ideas",
+        "title": "Thoughts & Notes",
+        "subtitle": "On UI/UX, frontend architecture, AI-augmented development, and whatever catches my interest.",
+        "readMore": "Read More",
+        "allPosts": "All Posts",
+        "readTime": "min read",
+        "backToBlog": "Back to Blog",
+        "tags": "Tags",
+        "noPosts": "No posts yet. Check back soon.",
+        "latestPosts": "Latest Posts",
+        "viewAll": "View All Posts"
+    },
+    "contact": {
+        "label": "Contact",
+        "title": "Got something to build?",
+        "description": "Consulting, collaboration, or a quick hello. I read every email.",
+        "email": "web@acedzn.com",
+        "city": "Tel Aviv, Israel"
+    },
+    "footer": {
+        "profileBlurb": "I'm always open to interesting conversations and new ideas.",
+        "getInTouch": "Get In Touch",
+        "elsewhere": "Elsewhere",
+        "tagline": "Built with curiosity and a bit of code.",
+        "builtWith": "Built with curiosity and a bit of code.",
+        "rights": "All rights reserved."
+    }
+}

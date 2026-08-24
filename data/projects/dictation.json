@@ -1,0 +1,36 @@
+{
+  "id": "dictation",
+  "slug": "dictation",
+  "name": "Dictation",
+  "nameHe": "הכתבה",
+  "description": "Voice-powered language learning app with multiple game modes and AI-assisted content creation",
+  "descriptionHe": "אפליקציית לימוד שפות מונעת קול עם מספר מצבי משחק ויצירת תוכן בעזרת AI",
+  "longDescription": "A browser-based language learning platform for creating and practicing interactive dictation games. Features four game modes (Writer, Quiz, Cards, Archery), integrated text-to-speech, CSV import, and AI-assisted word list generation. Supports any source-target language combination.",
+  "longDescriptionHe": "פלטפורמת לימוד שפות מבוססת דפדפן ליצירה ותרגול של משחקי הכתבה אינטראקטיביים. כוללת ארבעה מצבי משחק (כותב, חידון, כרטיסיות, קשתות), טקסט-לדיבור משולב, ייבוא CSV ויצירת רשימות מילים בעזרת AI. תומכת בכל שילוב שפות מקור-יעד.",
+  "url": null,
+  "urlKey": "dictation",
+  "docsUrl": "/en/projects/dictation",
+  "icon": "mic",
+  "color": "from-purple-500 to-pink-600",
+  "technologies": ["Next.js", "React", "TypeScript", "Web Audio API", "TTS", "AI Generation"],
+  "features": [
+    "Four game modes: Writer, Quiz, Cards, Archery",
+    "AI-assisted word list generation",
+    "Integrated text-to-speech pronunciation",
+    "CSV/TSV import for quick setup",
+    "Shareable game links for classrooms",
+    "Any language combination supported"
+  ],
+  "featuresHe": [
+    "ארבעה מצבי משחק: כותב, חידון, כרטיסיות, קשתות",
+    "יצירת רשימות מילים בעזרת AI",
+    "הגייה משולבת של טקסט-לדיבור",
+    "ייבוא CSV/TSV להגדרה מהירה",
+    "קישורי משחק שיתופיים לכיתות",
+    "תמיכה בכל שילוב שפות"
+  ],
+  "status": "live",
+  "tags": ["edtech", "ai", "nextjs"],
+  "published": true,
+  "order": 3
+}

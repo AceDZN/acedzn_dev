@@ -1,0 +1,15 @@
+{
+    "common": {
+        "signIn": "Sign In",
+        "signOut": "Sign Out",
+        "loading": "Loading...",
+        "error": "Something went wrong",
+        "notFound": "Page not found",
+        "menu": "Menu"
+    },
+    "navigation": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "settings": "Settings"
+    }
+}

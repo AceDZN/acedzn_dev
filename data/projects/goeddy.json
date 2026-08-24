@@ -1,0 +1,36 @@
+{
+  "id": "goeddy",
+  "slug": "goeddy",
+  "name": "GoEddy",
+  "nameHe": "GoEddy",
+  "description": "AI-powered digital tutor that teaches through real-time voice conversations, games, and interactive tools",
+  "descriptionHe": "מורה דיגיטלי מונע AI שמלמד דרך שיחות קוליות בזמן אמת, משחקים וכלים אינטראקטיביים",
+  "longDescription": "GoEddy is an AI-powered digital tutor - a friendly avatar named Eddy that teaches through real-time voice conversations, games, role-plays, stories, and challenges. It adapts to each learner's level and pace, covering everything from language learning to homework help to hobbies. Built with a CEFR-based curriculum, Eddy creates a stress-free environment where mistakes are encouraged and learning feels like play.",
+  "longDescriptionHe": "GoEddy הוא מורה דיגיטלי מונע AI - אווטאר ידידותי בשם אדי שמלמד דרך שיחות קוליות בזמן אמת, משחקים, משחקי תפקידים, סיפורים ואתגרים. הוא מתאים את עצמו לרמה ולקצב של כל לומד, ומכסה הכל מלימוד שפות ועד עזרה בשיעורי בית ותחביבים. בנוי עם תכנית לימודים מבוססת CEFR, אדי יוצר סביבה נטולת לחץ שבה טעויות מעודדות והלמידה מרגישה כמו משחק.",
+  "url": "https://www.goeddy.com?utm_source=acedzn&utm_medium=referral&utm_campaign=web",
+  "urlKey": null,
+  "docsUrl": null,
+  "icon": "bot",
+  "color": "from-emerald-400 to-cyan-500",
+  "technologies": ["AI/ML", "Voice AI", "EdTech", "Real-time", "Adaptive Learning"],
+  "features": [
+    "Real-time voice conversations with AI avatar",
+    "Adaptive difficulty based on learner's level",
+    "Games, role-plays, stories, and challenges",
+    "CEFR-based curriculum",
+    "Multi-subject: languages, homework, hobbies",
+    "Stress-free learning environment"
+  ],
+  "featuresHe": [
+    "שיחות קוליות בזמן אמת עם אווטאר AI",
+    "רמת קושי מתאימה לרמת הלומד",
+    "משחקים, משחקי תפקידים, סיפורים ואתגרים",
+    "תכנית לימודים מבוססת CEFR",
+    "מגוון נושאים: שפות, שיעורי בית, תחביבים",
+    "סביבת למידה נטולת לחץ"
+  ],
+  "status": "live",
+  "tags": ["ai", "edtech"],
+  "published": true,
+  "order": 1
+}

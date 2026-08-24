@@ -1,5 +1,4 @@
 import type { NextConfig } from "next";
-import { wrapNextConfig } from "./lib/monitoring/sentry-config";
 
 const nextConfig: NextConfig = {
   skipTrailingSlashRedirect: true,
@@ -21,4 +20,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default wrapNextConfig(nextConfig);
+export default nextConfig;

@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Providers } from "../../components/providers";
 import { PostHogProvider } from "@/lib/analytics/posthog-provider";
 
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
-import { UserSync } from "../../components/user-sync";
 import { HtmlLangSetter } from "../../components/html-lang-setter";
 import { MAIN_APP_URL } from "../../lib/constants";
 import { getDictionary } from "../../lib/dictionary";
@@ -145,35 +143,32 @@ export default async function LangLayout({
         />
       ))}
       <HtmlLangSetter lang={lang} />
-      <Providers>
-        <PostHogProvider>
-          <UserSync />
-          <Header
-            lang={lang}
-            wordmark={t("hero.wordmark")}
-            translations={{
-              about: t("nav.about"),
-              work: t("nav.work"),
-              ideas: t("nav.ideas"),
-              contact: t("nav.contact"),
-            }}
-          />
-          <main className="flex-grow">{children}</main>
-          <Footer
-            lang={lang}
-            translations={{
-              profileBlurb: t("footer.profileBlurb"),
-              getInTouch: t("footer.getInTouch"),
-              elsewhere: t("footer.elsewhere"),
-              tagline: t("footer.tagline"),
-              rights: t("footer.rights"),
-              contactEmail: t("contact.email"),
-              contactCity: t("contact.city"),
-              linkedin: "LinkedIn",
-            }}
-          />
-        </PostHogProvider>
-      </Providers>
+      <PostHogProvider>
+        <Header
+          lang={lang}
+          wordmark={t("hero.wordmark")}
+          translations={{
+            about: t("nav.about"),
+            work: t("nav.work"),
+            ideas: t("nav.ideas"),
+            contact: t("nav.contact"),
+          }}
+        />
+        <main className="flex-grow">{children}</main>
+        <Footer
+          lang={lang}
+          translations={{
+            profileBlurb: t("footer.profileBlurb"),
+            getInTouch: t("footer.getInTouch"),
+            elsewhere: t("footer.elsewhere"),
+            tagline: t("footer.tagline"),
+            rights: t("footer.rights"),
+            contactEmail: t("contact.email"),
+            contactCity: t("contact.city"),
+            linkedin: "LinkedIn",
+          }}
+        />
+      </PostHogProvider>
     </>
   );
 }

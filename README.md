@@ -15,8 +15,8 @@ Open [http://localhost:3000](http://localhost:3000). The root URL redirects to
 the preferred locale. Localized routes live under `app/[lang]` and support
 English (`en`) and Hebrew (`he`).
 
-The app expects Clerk, Convex, PostHog, and Sentry environment variables in
-`.env.local`. The migrated local environment file is gitignored.
+PostHog and optional public deployment URLs are configured through the
+gitignored `.env.local` file.
 
 ## Checks
 

@@ -1,6 +1,5 @@
 "use client";
 
-import { captureException } from "@/lib/monitoring";
 import { useEffect } from "react";
 
 export default function GlobalError({
@@ -11,7 +10,7 @@ export default function GlobalError({
   reset: () => void;
 }) {
   useEffect(() => {
-    captureException(error);
+    console.error(error);
   }, [error]);
 
   return (

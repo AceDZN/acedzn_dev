@@ -10,13 +10,10 @@
     "check-types": "next typegen && tsc --noEmit"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.39.3",
     "@formatjs/intl-localematcher": "^0.8.13",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
-    "@sentry/nextjs": "^10.69.0",
     "clsx": "^2.1.0",
-    "convex": "^1.17.0",
     "deepmerge": "^4.3.1",
     "framer-motion": "^12.23.26",
     "lucide-react": "^0.577.0",

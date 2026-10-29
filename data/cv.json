@@ -84,7 +84,7 @@
                     ]
                 }
             ],
-            "tech": ["Next.js", "TypeScript", "Turborepo", "Vercel AI SDK", "Vercel eve", "Convex", "Clerk", "Google Gemini", "OpenAI GPT"]
+            "tech": ["Next.js", "TypeScript", "Turborepo", "Vercel AI SDK", "Vercel eve", "Convex", "Clerk", "Google Gemini", "OpenAI GPT", "TypeSafe Jev"]
         },
         {
             "company": "Wibbitz",

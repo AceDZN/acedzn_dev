@@ -1,0 +1,166 @@
+{
+    "name": "Alex Sindalovsky",
+    "headline": "VP R&D | Hands-on CTO | AI Agents & LLM Systems",
+    "jobTitle": "VP R&D",
+    "location": "Hod HaSharon, Israel",
+    "email": "alex@acedzn.com",
+    "linkedin": "https://www.linkedin.com/in/alexsindalovsky/",
+    "pdf": "/Alex_Sindalovsky_CV.pdf",
+    "updated": "2026-10",
+    "summary": "Hands-on R&D leader with 20+ years in software engineering and 10+ years leading development teams. VP R&D at TinyTap, leading GoEddy, the company's flagship AI tutoring product, end to end, and driving AI adoption across all ~50 employees. Still writes production code daily: AI agents, MCP servers, voice and avatar agents, and full-stack TypeScript / Next.js platforms. Founded and solo-built Workbook, an agent-first EdTech platform with ~1,100 lesson modules and paid subscriptions.",
+    "skills": [
+        {
+            "label": "Leadership",
+            "items": ["R&D Leadership", "Engineering Management", "Technical Strategy & Roadmaps", "AI Transformation & Adoption", "0-to-1 Product Development", "Team Building", "Cross-functional Collaboration", "Stakeholder Management"]
+        },
+        {
+            "label": "AI & Agents",
+            "items": ["Generative AI", "LLM Applications", "AI Agents", "Multi-Agent Systems", "Agentic Workflows", "MCP (Model Context Protocol)", "Agent Skills & Plugins", "Prompt Engineering", "Voice Agents", "AI Avatars", "AI Discoverability (llms.txt)"]
+        },
+        {
+            "label": "AI Platforms",
+            "items": ["OpenAI GPT", "Anthropic Claude", "Google Gemini", "xAI Grok", "Vercel AI SDK", "LangChain", "ElevenLabs", "HeyGen", "D-ID", "Fal.ai", "Hugging Face"]
+        },
+        {
+            "label": "Engineering",
+            "items": ["TypeScript", "JavaScript", "React", "Next.js", "Node.js", "Python", "REST APIs", "OpenAPI", "Turborepo", "Convex", "MongoDB", "Vercel", "Clerk", "Solidity / Web3", "Git", "CI/CD"]
+        }
+    ],
+    "experience": [
+        {
+            "company": "TinyTap (GoEddy)",
+            "description": "EdTech company behind a global educational game-creation platform and GoEddy, an AI tutoring product.",
+            "location": "Israel",
+            "start": "08/2020",
+            "end": "Present",
+            "roles": [
+                {
+                    "title": "VP R&D",
+                    "start": "05/2025",
+                    "end": "Present",
+                    "highlights": [
+                        "Appointed the company's first VP R&D, a newly created role, while remaining Web Development Team Lead and a hands-on developer.",
+                        "Lead GoEddy, the company's flagship AI product, end to end: concept, architecture, roadmap and execution.",
+                        "Drove company-wide AI adoption: designed and built agentic team setups (skills, connectors and plugins) used by all ~50 employees across Design, Sales, Marketing, Development and Project Management.",
+                        "Build real-time AI agents across text (chatbots), voice (voice agents) and video (AI avatars), and integrate AI services for content and rich-media generation.",
+                        "Shipped AI content-creation tools used by hundreds of creators on TinyTap's game-creation platform.",
+                        "Built public MCP servers and AI-discoverability pipelines that let LLM assistants find TinyTap and GoEddy apps and recommend them to users.",
+                        "Run AI research and rapid prototyping to evaluate emerging technologies for the products and the company."
+                    ]
+                },
+                {
+                    "title": "Web Development Team Lead",
+                    "note": "promoted from Senior Frontend Developer",
+                    "start": "08/2020",
+                    "end": "Present",
+                    "highlights": [
+                        "Lead development of TinyTap's WebSale and WebCreator web platforms, balancing hands-on frontend work with team leadership, planning and delivery.",
+                        "Led the integration of generative AI into WebCreator, delivering AI tools that speed up content creation for game creators.",
+                        "Led the company's blockchain initiative: built the Publisher NFT Dashboard and delivered the $EDU token launch.",
+                        "Lead web development of GoEddy; grew the team and coordinated cross-platform projects."
+                    ]
+                }
+            ],
+            "tech": ["TypeScript", "React", "Redux", "Next.js", "Node.js", "Python", "Vercel AI SDK", "LangChain", "MCP", "OpenAI", "Claude", "Gemini", "ElevenLabs", "HeyGen", "MongoDB", "Solidity", "Web3.js"]
+        },
+        {
+            "company": "Workbook (החוברת)",
+            "url": "https://www.workbook.co.il",
+            "location": "Israel",
+            "start": "12/2025",
+            "end": "Present",
+            "roles": [
+                {
+                    "title": "Founder & Developer",
+                    "note": "independent venture",
+                    "start": "12/2025",
+                    "end": "Present",
+                    "highlights": [
+                        "Founded and single-handedly built an interactive study platform for Israeli middle-school students (grades 7-9), aligned with the Ministry of Education curriculum: product, curriculum architecture, code, content pipelines and launch.",
+                        "Delivered ~1,100 interactive lesson modules across Science, Math, Geography, History and English, with simulations, quizzes, chapter summaries and 800+ practice pages.",
+                        "Built AI generators for custom practice sheets (including from PDFs), English dictations and learning games such as crosswords, word searches and mazes.",
+                        "Architected the platform as agent-first: a public agent API with an OpenAPI spec, an MCP hub serving 23 tools across a network of apps, agent skills, and llms.txt.",
+                        "Launched free and paid subscription tiers for students, parents and schools."
+                    ]
+                }
+            ],
+            "tech": ["Next.js", "TypeScript", "Turborepo", "Vercel AI SDK", "Vercel eve", "Convex", "Clerk", "Google Gemini", "OpenAI GPT"]
+        },
+        {
+            "company": "Wibbitz",
+            "location": "Tel Aviv",
+            "start": "05/2019",
+            "end": "07/2020",
+            "roles": [
+                {
+                    "title": "Senior Frontend Developer",
+                    "start": "05/2019",
+                    "end": "07/2020",
+                    "highlights": [
+                        "Built reusable React components for Wibbitz Studio, a large-scale online video editor for media publishers, shipping via CI/CD with product, design and BI teams."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Magisto",
+            "location": "Ness Ziona",
+            "start": "07/2016",
+            "end": "04/2019",
+            "roles": [
+                {
+                    "title": "Web Developer",
+                    "start": "07/2016",
+                    "end": "04/2019",
+                    "highlights": [
+                        "Developed Magisto's AngularJS video-creation web app from design to launch, plus React and AngularJS widgets embedded on third-party partner websites.",
+                        "Coordinated with overseas vendors and partners and prioritized web R&D work."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Initial Rewards",
+            "location": "Tel Aviv",
+            "start": "05/2014",
+            "end": "06/2016",
+            "roles": [
+                {
+                    "title": "Lead Frontend Developer",
+                    "start": "05/2014",
+                    "end": "06/2016",
+                    "highlights": [
+                        "Led a team of 4 developers and QA (planning, deadlines, releases) building the white-label loyalty platform, e-commerce shops and PHP back office."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Modlin Online Services",
+            "location": "Ramat Gan",
+            "start": "11/2011",
+            "end": "04/2014",
+            "roles": [
+                {
+                    "title": "Lead Frontend Developer",
+                    "start": "11/2011",
+                    "end": "04/2014",
+                    "highlights": [
+                        "Led a team of 6 developers and QA building websites, finance widgets and a Django-based multilingual social platform for financial-sector clients."
+                    ]
+                }
+            ]
+        }
+    ],
+    "earlier": [
+        { "company": "AceDesigns", "title": "Founder & Web Developer, freelance web studio", "period": "2003-2024" },
+        { "company": "H.L.C. High Logic Computing", "title": "Lead Web Developer", "period": "2010-2011" },
+        { "company": "CreoScitex", "title": "UI Designer", "period": "2002-2003" }
+    ],
+    "education": [
+        "Multi-Agent Systems (course)",
+        "iOS (Swift) and Android (Java) App Development, HackerU (2014-2015)",
+        "Hadassim High School, Photography & Video Editing major"
+    ],
+    "languages": ["Hebrew: Native", "English: Professional working proficiency"]
+}

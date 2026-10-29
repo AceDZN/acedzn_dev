@@ -13,6 +13,7 @@ interface NavProps {
     about: string;
     work: string;
     ideas: string;
+    cv: string;
     contact: string;
   };
 }
@@ -25,6 +26,7 @@ export function Header({ lang, wordmark, translations }: NavProps) {
     { label: translations.about, href: `/${lang}#about` },
     // { label: translations.work, href: `/${lang}/projects` },
     // { label: translations.ideas, href: `/${lang}/blog` },
+    { label: translations.cv, href: `/${lang}/cv` },
     { label: translations.contact, href: `/${lang}#contact` },
   ];
 

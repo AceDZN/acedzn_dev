@@ -78,8 +78,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
 
+  const cvPages: MetadataRoute.Sitemap = ["en", "he"].map((lang) => ({
+    url: `${baseUrl}/${lang}/cv`,
+    lastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
   return [
     ...basePages,
+    ...cvPages,
     ...projectListingPages,
     ...individualProjectPages,
     ...blogPages,

@@ -97,14 +97,15 @@ function generateStructuredData(lang: string) {
       "https://www.linkedin.com/in/alexsindalovsky/",
       "https://x.com/AceDZN",
     ],
-    jobTitle: "UI/UX Developer & Context Engineer",
+    jobTitle: "VP R&D",
     knowsAbout: [
+      "R&D Leadership",
+      "AI Agents",
+      "LLM Applications",
+      "Model Context Protocol",
       "React",
       "Next.js",
       "TypeScript",
-      "AI-Augmented Development",
-      "Context Engineering",
-      "UI/UX Design",
       "EdTech",
     ],
   };
@@ -151,6 +152,7 @@ export default async function LangLayout({
             about: t("nav.about"),
             work: t("nav.work"),
             ideas: t("nav.ideas"),
+            cv: t("nav.cv"),
             contact: t("nav.contact"),
           }}
         />

@@ -16,7 +16,8 @@
         "contact": "Contact",
         "projects": "Projects",
         "blog": "Blog",
-        "signin": "Sign In"
+        "signin": "Sign In",
+        "cv": "CV"
     },
     "pillars": {
         "webDev": {
@@ -82,5 +83,9 @@
         "tagline": "Built with curiosity and a bit of code.",
         "builtWith": "Built with curiosity and a bit of code.",
         "rights": "All rights reserved."
+    },
+    "cv": {
+        "downloadPdf": "Download PDF",
+        "englishOnly": ""
     }
 }
